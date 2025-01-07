@@ -1,0 +1,19 @@
+title: Final Pooh
+originalAuthor: Shananas
+game: kh2
+description: Warp to Final Xemas after you finish starry hill. If you want to do final fights rename `fullpo01evt.yml` to `po01evt.yml`
+assets:
+- method: binarc
+  name: ard/us/po01.ard
+  multi:
+  - name: ard/fr/po01.ard
+  - name: ard/gr/po01.ard
+  - name: ard/it/po01.ard
+  - name: ard/sp/po01.ard
+  - name: ard/po01.ard
+  source:
+  - method: areadatascript
+    name: evt
+    source:
+    - name: ard/po01evt.yml
+    type: AreaDataScript
